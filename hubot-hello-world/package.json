@@ -1,0 +1,101 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "aranshigeki/hubot-hello-world",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "aranshigeki/hubot-hello-world",
+        "spec": "github:aranshigeki/hubot-hello-world",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:aranshigeki/hubot-hello-world.git",
+          "sshUrl": "git+ssh://git@github.com/aranshigeki/hubot-hello-world.git",
+          "httpsUrl": "git+https://github.com/aranshigeki/hubot-hello-world.git",
+          "gitUrl": "git://github.com/aranshigeki/hubot-hello-world.git",
+          "shortcut": "github:aranshigeki/hubot-hello-world",
+          "directUrl": "https://raw.githubusercontent.com/aranshigeki/hubot-hello-world/master/package.json"
+        }
+      },
+      "/Users/aa369116/demohubot"
+    ]
+  ],
+  "_from": "aranshigeki/hubot-hello-world",
+  "_id": "hubot-hello-world@1.0.0",
+  "_inCache": true,
+  "_location": "/hubot-hello-world",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "aranshigeki/hubot-hello-world",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "aranshigeki/hubot-hello-world",
+    "spec": "github:aranshigeki/hubot-hello-world",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:aranshigeki/hubot-hello-world.git",
+      "sshUrl": "git+ssh://git@github.com/aranshigeki/hubot-hello-world.git",
+      "httpsUrl": "git+https://github.com/aranshigeki/hubot-hello-world.git",
+      "gitUrl": "git://github.com/aranshigeki/hubot-hello-world.git",
+      "shortcut": "github:aranshigeki/hubot-hello-world",
+      "directUrl": "https://raw.githubusercontent.com/aranshigeki/hubot-hello-world/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git://github.com/aranshigeki/hubot-hello-world.git#0a5e2d8495c95faa4bebdb036acd6807579202b7",
+  "_shasum": "37922aee5ef2ab7d8515bf0378478020db788d49",
+  "_shrinkwrap": null,
+  "_spec": "aranshigeki/hubot-hello-world",
+  "_where": "/Users/aa369116/demohubot",
+  "author": {
+    "name": "bouzuya",
+    "email": "m@bouzuya.net"
+  },
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-hello-world/issues"
+  },
+  "dependencies": {},
+  "description": "A Hubot script that responds 'World!'",
+  "devDependencies": {
+    "chai": "*",
+    "coffee-script": "1.6.3",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "hubot": "2.x",
+    "matchdep": "~0.1.2",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+  "gitHead": "0a5e2d8495c95faa4bebdb036acd6807579202b7",
+  "homepage": "https://github.com/hubot-scripts/hubot-hello-world#readme",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "license": "MIT",
+  "main": "index.coffee",
+  "name": "hubot-hello-world",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "readme": "# hubot-hello-world\n\nA Hubot script that responds 'World!'\n\nSee [`src/hello-world.coffee`](src/hello-world.coffee) for full documentation.\n\n## Installation\n\nIn hubot project repo, run:\n\n`npm install hubot-hello-world --save`\n\nThen add **hubot-hello-world** to your `external-scripts.json`:\n\n```json\n[\n  \"hubot-hello-world\"\n]\n```\n\n## Sample Interaction\n\n```\nuser1>> hubot hello\nhubot>> World!\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-hello-world.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "1.0.0"
+}
